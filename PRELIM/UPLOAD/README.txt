@@ -5,4 +5,4 @@ Basic instructions and some solutions for PRELIM can be found in the respective 
 
 These files refer to various other files such as Matlab or Excel files. All images of figures have been saved and are named according to their content.
 The codes given are able to replicate the image files.
-PRELIM11_P1 outputs to the command window parameter values which are latter used for curvefitting.
+PRELIM11_P1 outputs to the command window parameter values which are later used for curvefitting. It includes conversion calculations. Curvefit holds data used for the curve.
