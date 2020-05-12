@@ -16,7 +16,7 @@ nzx = 2.7;
 nxz = 2.7;
 sigz = 1.0;
 
-nspace=100; %number of points for each region
+nspace = 100;
 %initial input
 INT = [0 0];
 
@@ -33,8 +33,7 @@ for i = 1:nspace
  
  %SS Sol
  [SolX, SolZ] = vpasolve([eqn_1,eqn_2],[X,Z],INT);
-
- %Add the next entry
+ 
  X_Lower(i) = double(SolX);
 
  INT = [double(SolX) double(SolZ)];
