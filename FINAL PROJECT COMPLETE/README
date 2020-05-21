@@ -1,0 +1,15 @@
+Please read this
+
+Inside this folder is contained the SUPPLEMENTARY MATERIALS folder referenced in the project final report.
+That folder contains all of the figures and graphs along with two video simulations of the Simple Elastic Motor Clutch
+
+Also contained in the folder is the code for the Processing video simulator. This code requires you to run the Simple Elastic
+Matlab file. The Matlab file has a file writting section that must be uncommented. Running will then output and save all the figures
+and the neccesaairy files for the visual simulation to the directory. The Processing code must be in the same directory as these files
+
+When running the Processing code you can choose between different substrate stiffnesses by changing the s value in the parameter space.
+An attempt was made to included visual indicators for clutch engagement and force but in this version has not been completed.
+
+The main directory contains the requesite codes, final report and powerpoint presentation. The codes contained within are the modified
+Matlab codes for simple and viscoelastic substrates along with the original code produced by Odde and Bangaser. Also contiained is the
+Python reconstruction of the Odde code.
